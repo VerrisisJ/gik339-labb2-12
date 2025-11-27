@@ -1,8 +1,8 @@
 // Variabel 1 
-
+const checkbox = document.getElementById("divStyle");
 
 // Variabel 2 
- 
+const textFields = document.getElementsByClassName("textfield");
 
 // Variabel 3 
 const button = document.getElementById("button") //Hittar HTML element som har id=button och sparar som en variabel som heter button
@@ -14,4 +14,4 @@ const outputDiv = document.getElementById("div-element");
 console.log(outputDiv); // TA BORT DETTA SENARE! Är endast för att testa om Div är kopplad från HTML filen
 
 // Variabel 4
- 
+const outputDiv = document.querySelector("#divElement");
