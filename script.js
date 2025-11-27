@@ -10,8 +10,5 @@ button.addEventListener("click", function (e) { // Lyssnar efter funktion när k
     console.log("knappen klickades");
 });
 
-const outputDiv = document.getElementById("div-element");
-console.log(outputDiv); // TA BORT DETTA SENARE! Är endast för att testa om Div är kopplad från HTML filen
-
 // Variabel 4
 const outputDiv = document.querySelector("#divElement");
