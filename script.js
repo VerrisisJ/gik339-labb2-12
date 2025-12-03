@@ -26,3 +26,13 @@ function handleDiv(e) {
     outputDiv.innerHTML = e.target.value;
     }
 }
+
+//Uppgift 6
+
+//textFields
+//handleDiv
+
+checkbox.addEventListener("change", function (e) {    // Lyssnar när checkboxen ändras
+    const colorChange = textFields[0].value;          // Hämtar värdet från första textfältet som är "color"
+    outputDiv.style.backgroundColor = colorChange;    // Ändrar bakgrundsfärgen på div elementet
+});
