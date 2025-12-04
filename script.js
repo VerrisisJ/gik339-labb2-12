@@ -36,4 +36,5 @@ textFields[1].addEventListener("input", handleDiv); //content textfield
 
 button.addEventListener("click", function () { 
     outputDiv.remove();
+    console.log("Div elementet borttaget!")
 });
