@@ -36,7 +36,7 @@ checkbox.addEventListener("change", function (e) {    // Lyssnar när checkboxen
 textFields[0].addEventListener("input", handleDiv); //Color textfield
 textFields[1].addEventListener("input", handleDiv); //content textfield
 
-button.addEventListener("click", function () { 
-    outputDiv.remove();
-    console.log("Div elementet borttaget!")
+button.addEventListener("click", function () {  // Lyssnar när knappen används
+    outputDiv.remove();                         // Raderar div element
+    console.log("Div elementet borttaget!")     // Visar i konsolen att elementet raderats
 });
