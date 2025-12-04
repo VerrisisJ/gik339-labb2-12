@@ -12,6 +12,7 @@ const button = document.getElementById("button") //Hittar HTML element som har i
 // Variabel 4
 const outputDiv = document.querySelector("#divElement");
 
+
 //Uppgift 5
 
 function handleDiv(e) {
@@ -23,6 +24,7 @@ function handleDiv(e) {
     outputDiv.innerHTML = e.target.value;
     }
 }
+
 
 //Uppgift 6
 
